@@ -99,9 +99,9 @@ const Index = () => {
                 size="lg" 
                 variant="outline"
                 className="text-lg px-8 py-6 bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20"
-                onClick={() => document.getElementById('cursos')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => window.location.href = whatsappUrl}
               >
-                Ver Cursos
+                Fale Conosco
               </Button>
             </div>
           </div>
